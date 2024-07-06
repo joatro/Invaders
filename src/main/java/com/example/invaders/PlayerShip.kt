@@ -12,7 +12,7 @@ class PlayerShip(context: Context,
     // The player ship will be represented by a Bitmap
     var bitmap: Bitmap = BitmapFactory.decodeResource(
             context.resources,
-            R.drawable.playership)
+            R.drawable.playership2)
 
     // How wide and high our ship will be
     val width = screenX / 20f

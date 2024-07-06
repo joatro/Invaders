@@ -12,6 +12,9 @@ class KotlinInvadersView(context: Context,
     : SurfaceView(context),
         Runnable {
 
+init{
+    setLayerType(LAYER_TYPE_HARDWARE,null)
+}
     // For making a noise
     private val soundPlayer = SoundPlayer(context)
 
