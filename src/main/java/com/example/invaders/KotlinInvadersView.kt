@@ -13,6 +13,7 @@ class KotlinInvadersView(context: Context,
         Runnable {
 
 init{
+  //harware not to be header
     setLayerType(LAYER_TYPE_HARDWARE,null)
 }
     // For making a noise
